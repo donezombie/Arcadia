@@ -1,0 +1,12 @@
+version: "3"
+services:
+  frontend:
+    container_name: salad-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./:/app
+      - /app/node_modules
