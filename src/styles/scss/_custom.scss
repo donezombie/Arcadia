@@ -5,6 +5,8 @@ body {
   @include darkTheme() {
     --main-color: #ccc;
   }
+
+  background-color: linear-gradient(to right, #2F80ED, #56CCF2);
 }
 
 #root {
@@ -16,3 +18,8 @@ body {
     flex: 1;
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
