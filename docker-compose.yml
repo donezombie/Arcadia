@@ -1,7 +1,7 @@
 version: "3"
 services:
   frontend:
-    container_name: salad-frontend
+    container_name: arcadia
     build:
       context: .
       dockerfile: Dockerfile.dev
